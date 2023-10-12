@@ -1,6 +1,5 @@
 
 
-
 # Transformers for Natural Language Processing
 This is the code repository for [Transformers for Natural Language Processing](https://www.packtpub.com/product/transformers-for-natural-language-processing/9781800565791), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 
@@ -60,3 +59,6 @@ Check this file for the hardware and software requirements: [technical_requireme
 
  <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
 <p align="center"> <a href="https://packt.link/free-ebook/9781800565791">https://packt.link/free-ebook/9781800565791 </a> </p>
+
+
+
