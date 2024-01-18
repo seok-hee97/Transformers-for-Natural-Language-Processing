@@ -47,6 +47,12 @@ Topics covered in this chapter
 https://simonezz.tistory.com/65
 
 
+- Multi-head Attention.  
+  - 시퀀스에 대한 보다 광범위하고 철저한 분석   
+  - recurrence(순환) 배제에 따른 연산 축소   
+  - 병렬화 구현에 따른 훈련 시간 축소   
+  - 각 어텐션 메커니즘이 같은 입력 시퀀스에 대해 서로 다른 관점을 학습
+
 
 트랜스포머 아키텍처 -> 놀라운 원거리 종속성(long-distance dependencies) 조사로 시작
 
