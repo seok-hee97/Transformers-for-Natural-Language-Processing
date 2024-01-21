@@ -1,0 +1,14 @@
+transformer
+genism
+tensorflow
+numpy
+pandas
+matplotlib
+scikit-learn
+toposort
+sentencepiece
+trax
+allennlp
+allennlp-models
+farm-haystack
+torch==1.6.0+cu101

@@ -62,3 +62,27 @@ Check this file for the hardware and software requirements: [technical_requireme
 
 
 
+
+
+
+
+
+### Usage
+
+Usage(python 3.8(Anaconda) I used in m1 mac)
+```
+conda create -n tda_py38 python=3.8
+```
+
+chectk the env made well
+```
+conda env list 
+```
+and activate env
+```
+conda activate tda_py38
+```
+install python Lib
+```
+pip install -r requirements.txt
+```
