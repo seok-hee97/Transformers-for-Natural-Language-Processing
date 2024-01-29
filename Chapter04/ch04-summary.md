@@ -126,6 +126,8 @@ ex].
 
 ##### C. MultiRC(Multi-Sentence Reading Comprehension, 다문장 독해력)
 
+모델에는 텍스트(text), 여러 질문(questions), 그리고 0(거짓) 또는 1(참)로 레이블링된  
+각 질문에 대한 가능한 답변들(answers)이 제공
 
 
 ##### D. ReCoRD(Rendering Comprehension with Commonsense Reasoning Dataset)
@@ -147,6 +149,27 @@ ex].
 
 
 
+### 4.3 다운스트림 작업 실행  
+다운스트림 작업은 사전 훈련된 트랜스포머 모델에서 모델과 매개변수를 상속한,   
+미세 조정된 트랜스포머 작업이다.
+
+따라서 다운스트미 작업은 미세 조정된 작업을 실행하는 사전 훈련된 모델의 관점
+
+
+
+#### 4.3.1 CoLA(Corpus of Linguistic Acceptability, 언어 수용성 코퍼스)   
+
+문장은 문법적 또는 비문법적이라고 레이블이 붙음. 문장이 문법적으로 허용되지 않는 경우
+0으로 표시. 문장이 문법적으로 허용되는 경우 1로  표시
+ex]
+Classification = 1 for 'we yelled ourselves hores.'
+Classification = 0 for 'we yelled ourselves.'
+
+
+#### 4.3.2 SST-2(STANDFORD Sentiment TreeBank: 스탠포드 감정 트리뱅크)
+영화 리뷰 표함
+SST-2 작업은 정확도 메트릭을 사용하여 평가
+우리는 시퀀스의 감정을 분류한다. 이게 시퀀스의 두 문장이 같은 의미인지 아닌지 보자.
 
 
 #### 4.3.3 MRPC(Microsoft Research Paraphrase Corpus)
