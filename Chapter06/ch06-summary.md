@@ -133,3 +133,13 @@
 
 ***OpenAI_GPT_2.ipynb***
 
+
+
+
+
+- Music Transformer : 장기적인 구조를 갖춘 음악 생성    
+https://magenta.tensorflow.org/music-transformer    
+
+
+- Amazon AWS DeepComposer도 태른스포머 사용해 음악을 만듬
+  https://aws.amazon.com/ko/deepcomposer/
